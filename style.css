@@ -1,0 +1,49 @@
+
+#page1{
+  margin: auto;
+  background-color: black;
+  height: 100px,
+}
+.outer{
+  margin: 180px 400px;
+  font-family: 'Monoton',cursive;
+  color: red;
+
+}
+
+#headline{
+  font-size: 45px;
+}
+.inner{
+  position: absolute;
+  border: 1px solid orange;
+  height:84px;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Audiowide',cursive;
+  text-transform: uppercase;
+  display: inline-block;
+  overflow: hidden;
+}
+.inner span{
+  animation: animate 10s ease infinite;
+  position:relative;
+  color:#e58e26;
+  line-height: 84px;
+}
+@keyframes animate {
+  0%{top:0}
+  20%{top:0}
+  25%{top:-100px}
+  50%{top:-100px}
+  60%{top:-200px}
+  70%{top:-200px}
+  75%{top:-300px}
+  95%{top:-300px}
+  100%{top:-5px}
+
+
+}
+a{
+  font-family: 'Audiowide',cursive;
+}
