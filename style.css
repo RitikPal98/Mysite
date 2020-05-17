@@ -1,25 +1,30 @@
 
 #page1{
-  margin: auto;
+  margin:auto;
   background-color: black;
-  height: 100px,
+  height: 155px;
+
+
+
 }
 .outer{
-  margin: 180px 400px;
+  margin: 180px 80px;
   font-family: 'Monoton',cursive;
-  color: red;
+  color:#e58e26;
 
 }
 
 #headline{
-  font-size: 45px;
+  font-size: 85px;
+height:40px;
+wide:100%;
 }
 .inner{
   position: absolute;
-  border: 1px solid orange;
-  height:84px;
-  font-size: 80px;
-  font-weight: bold;
+  border: 0 solid orange;
+  height:138px;
+  font-size: 130px;
+  font-weight:bold;
   font-family: 'Audiowide',cursive;
   text-transform: uppercase;
   display: inline-block;
@@ -28,18 +33,18 @@
 .inner span{
   animation: animate 10s ease infinite;
   position:relative;
-  color:#e58e26;
-  line-height: 84px;
+  color:white;
+  line-height: 134px;
 }
 @keyframes animate {
   0%{top:0}
   20%{top:0}
-  25%{top:-100px}
-  50%{top:-100px}
-  60%{top:-200px}
-  70%{top:-200px}
-  75%{top:-300px}
-  95%{top:-300px}
+  25%{top:-160px}
+  50%{top:-160px}
+  60%{top:-330px}
+  70%{top:-330px}
+  75%{top:-480px}
+  95%{top:-480px}
   100%{top:-5px}
 
 
